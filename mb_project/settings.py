@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'posts.apps.PostsConfig',#Tell Django about the new app posts
+    'posts.apps.PostsConfig', #Tell Django about the new app posts
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
